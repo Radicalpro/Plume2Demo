@@ -1,0 +1,6 @@
+dependencies: \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/React/Modules/RCTI18nManager.m \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/React/Modules/RCTI18nManager.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/React/Modules/RCTI18nUtil.h

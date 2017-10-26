@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Image/RCTImageLoader.m \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTImageLoader.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTResizeMode.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Image/RCTImageCache.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Image/RCTImageUtils.h

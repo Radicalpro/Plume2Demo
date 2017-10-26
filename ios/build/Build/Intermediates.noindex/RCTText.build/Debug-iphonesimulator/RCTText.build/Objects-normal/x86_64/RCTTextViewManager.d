@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Text/RCTTextViewManager.m \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Text/RCTTextViewManager.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Text/RCTConvert+Text.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Text/RCTShadowTextView.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Text/RCTTextView.h \
+  /Users/tianyi/code/workspace/study/DemoApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Text/RCTTextInput.h \
+  /Users/tianyi/code/workspace/study/DemoApp/node_modules/react-native/Libraries/Text/RCTBackedTextInputViewProtocol.h
