@@ -5,7 +5,7 @@ import AppStore from './store'
 
 @StoreProvider(AppStore, {debug: __DEV__})
 export default class UserCenter extends Component<{}> {
-	// store:AppStore;
+	// store:AppStore;.gitignore
 
 	render() {
 		return (
