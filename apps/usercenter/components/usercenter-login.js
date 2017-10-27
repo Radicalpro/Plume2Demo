@@ -7,12 +7,10 @@ import {noop} from 'ajkit'
 export default class UserCenterLogin extends Component {
 
 	static relaxProps = {
-		account: '',
-		password: '',
 		setAccount: noop,
 		setPass: noop,
 		doLogin: noop
-	}
+	};
 
 	render() {
 		const {setAccount, setPass, doLogin} = this.props.relaxProps
@@ -42,7 +40,7 @@ export default class UserCenterLogin extends Component {
 
 const styles = StyleSheet.create({
 	inputView: {
-		flex:1,
+		flex: 1,
 		flexDirection: 'column',
 		justifyContent: 'center',
 	},
