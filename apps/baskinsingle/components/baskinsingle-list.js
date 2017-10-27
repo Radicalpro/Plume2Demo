@@ -19,7 +19,7 @@ export default class BaskInSingleList extends Component {
 			params: from,
 			renderRow: (item, _, index) => {
 				return (
-					<BaskInSingleItem item={item} index={index} key={index}/>
+					<BaskInSingleItem item={item} index={index} key={item.shareOrderId}/>
 				)
 			},
 			renderEmpty: () => <Text>列表无内容</Text>,

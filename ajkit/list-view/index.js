@@ -9,12 +9,10 @@ import noop from '../noop'
 import Loading from '../loading'
 
 
-export default class AJListView extends Component<any, any> {
+export default class AJListView extends Component {
 
 	//当前的pageNum
 	_pageNum: 1;
-
-	_keyExtractor = (item, index) => item.id;
 
 	static defaultProps = {
 		//请求的url
@@ -74,7 +72,7 @@ export default class AJListView extends Component<any, any> {
 				renderItem={({item, index}) => renderRow(item, extraData, index)}
 				horizontal={false}
 				initialNumToRender={pageSize}
-				keyExtractor={this._keyExtractor}
+				// keyExtractor={this._keyExtractor}
 				//0.5表示距离内容最底部的距离为当前列表可见长度的一半时触发。
 				onEndReachedThreshold={0.3}
 				onEndReached={this._handlePagination}
