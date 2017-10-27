@@ -2,11 +2,7 @@ import React, {Component} from 'react'
 import {Dimensions, Text} from 'react-native'
 import {Relax} from 'plume2'
 import {AJListView, noop,} from 'ajkit'
-
-const {
-	width: screenWidth,
-	height: screenHeight
-} = Dimensions.get('window'); // 屏幕宽高
+import BaskInSingleItem from "./baskinsingle-item";
 
 @Relax
 export default class BaskInSingleList extends Component {
@@ -23,7 +19,7 @@ export default class BaskInSingleList extends Component {
 			params: from,
 			renderRow: (item, _, index) => {
 				return (
-					<Text style={{height: 100, width: screenWidth}} key={index}>{item.shareOrderId}</Text>
+					<BaskInSingleItem item={item} index={index} key={index}/>
 				)
 			},
 			renderEmpty: () => <Text>列表无内容</Text>,
