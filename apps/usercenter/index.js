@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
+import {StyleSheet, View} from 'react-native';
 import {StoreProvider} from 'plume2'
-import {PixelRatio, StyleSheet, Text, TextInput, TouchableOpacity, View} from 'react-native';
+import {Header} from 'ajkit'
 import AppStore from './store'
+import UserCenterLogin from "./components/usercenter-login";
 
 @StoreProvider(AppStore, {debug: __DEV__})
 export default class UserCenter extends Component<{}> {
@@ -10,23 +12,9 @@ export default class UserCenter extends Component<{}> {
 	render() {
 		return (
 			<View style={styles.container}>
-				<Text>个人中心</Text>
-				<TextInput style={styles.input}
-				           keyboardType="numeric"
-				           placeholder="请输入您的手机号"
-				           placeholderTextColor="#999"
-				           underlineColorAndroid="transparent"
-				           onChangeText={(value) => this.store.setAccount(value)}/>
-				<TextInput style={styles.input}
-				           secureTextEntry={true}
-				           keyboardType="ascii-capable"
-				           placeholder="密码"
-				           placeholderTextColor="#999"
-				           underlineColorAndroid="transparent"
-				           onChangeText={(value) => this.store.setPass(value)}/>
-				<TouchableOpacity onPress={() => this.store.doLogin()}>
-					<Text>登录</Text>
-				</TouchableOpacity>
+				<Header title='个人中心' renderLeft={() => {
+				}}/>
+				<UserCenterLogin/>
 			</View>
 		);
 	}
@@ -35,13 +23,6 @@ export default class UserCenter extends Component<{}> {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		justifyContent: 'center',
 		alignItems: 'center',
-	},
-	input: {
-		height: 30,
-		width: 150,
-		borderBottomWidth: 1 / PixelRatio.get(),
-		borderBottomColor: '#000',
 	}
 });

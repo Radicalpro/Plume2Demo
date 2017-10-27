@@ -4,8 +4,8 @@ export default class LoginActor extends Actor {
 
 	defaultState() {
 		return {
-			account: "",    //账号
-			password: "",   //密码
+			account: '',    //账号
+			password: '',   //密码
 		}
 	}
 
