@@ -33,7 +33,7 @@ export default class Demo extends Component {
 	render() {
 		const listViewProps = {
 			data: this.state.data,
-			renderRow: (item, _, index) => {
+			renderRow: (item, index) => {
 				return (
 					<BaskInSingleItem item={item} index={index} key={item.shareOrderId}/>
 				)
