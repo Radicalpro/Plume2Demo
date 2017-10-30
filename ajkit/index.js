@@ -6,6 +6,7 @@ import Fetch from './fetch'
 import Header from './header'
 import AJListView from './list-view'
 import Loading from './loading'
+import AJFlatList from './flatList'
 
 
 export {
@@ -13,5 +14,6 @@ export {
 	Fetch,
 	Header,
 	AJListView,
-	Loading
+	Loading,
+	AJFlatList
 }

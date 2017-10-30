@@ -24,6 +24,7 @@ export default class BaskInSingleList extends Component {
 			},
 			renderEmpty: () => <Text>列表无内容</Text>,
 			onDataReached: (res) => fetchBaskInSingle(res),
+			keyProps: 'shareOrderId'
 		}
 
 		return (

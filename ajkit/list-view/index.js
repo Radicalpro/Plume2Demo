@@ -22,6 +22,7 @@ export default class AJListView extends Component {
 		pageNum: 1,
 		//当前的数据
 		dataSource: [],
+		keyProps: 'id',
 		renderRow: null,
 		renderEmpty: null,
 		//收到数据后的回调
@@ -55,6 +56,7 @@ export default class AJListView extends Component {
 			renderRow,
 			renderEmpty,
 			extraData,
+			keyProps
 		} = this.props;
 
 		if (this.state.isFirstLoading) {
@@ -72,7 +74,9 @@ export default class AJListView extends Component {
 				renderItem={({item, index}) => renderRow(item, extraData, index)}
 				horizontal={false}
 				initialNumToRender={pageSize}
-				// keyExtractor={this._keyExtractor}
+				keyExtractor={(item) => {
+					return item[keyProps]
+				}}
 				//0.5表示距离内容最底部的距离为当前列表可见长度的一半时触发。
 				onEndReachedThreshold={0.3}
 				onEndReached={this._handlePagination}
