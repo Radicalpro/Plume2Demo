@@ -1,9 +1,19 @@
 import {StackNavigator, TabBarBottom, TabNavigator} from 'react-navigation'
 import BaskInSingle from './baskinsingle'
 import UserCenter from './usercenter'
+import Demo from './demolist'
 
 const Tab = TabNavigator(
 	{
+
+		//晒单
+		Demo: {
+			screen: Demo,
+			navigationOptions: ({navigation}) => ({
+				//选项卡名称
+				tabBarLabel: 'demo'
+			})
+		},
 		//晒单
 		BaskInSingle: {
 			screen: BaskInSingle,

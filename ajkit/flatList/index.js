@@ -1,5 +1,7 @@
 /**
  * FlatList组件
+ * @author tianyi
+ * @since 2017/10/30
  */
 import React, {Component} from 'react'
 import {FlatList, RefreshControl} from 'react-native'
@@ -10,7 +12,7 @@ export default class AJFlatList extends Component {
 		//默认页数
 		pageSize: 10,
 		//当前的数据
-		dataSource: [],
+		data: [],
 		//传入数组数据的唯一性id
 		keyProps: 'id',
 		renderRow: null,
@@ -30,20 +32,19 @@ export default class AJFlatList extends Component {
 
 	constructor(props) {
 		super(props);
-		const {dataSource} = this.props;
+		const {data} = this.props;
 		this.state = {
 			refreshing: false,
-			//当前的数据源
-			dataSource: dataSource || []
 		}
 	}
 
 	render() {
 		const {
+			data,
+			extraData,
 			pageSize,
 			renderRow,
 			ListEmptyComponent,
-			extraData,
 			ListFooterComponent,
 			ListHeaderComponent,
 			onEndReached,
@@ -51,14 +52,11 @@ export default class AJFlatList extends Component {
 			keyProps
 		} = this.props;
 
-		//如果数据为空
-		let {dataSource} = this.state;
-
 		//如果数据不为空
 		return (
 			<FlatList
 				ref="listRef"
-				data={dataSource}
+				data={data}
 				renderItem={({item, index}) => renderRow(item, extraData, index)}
 				//水平或垂直展示
 				horizontal={false}
@@ -71,7 +69,7 @@ export default class AJFlatList extends Component {
 				//0.5表示距离内容最底部的距离为当前列表可见长度的一半时触发。
 				onEndReachedThreshold={0.3}
 				//上拉加载
-				onEndReached={onEndReached && onEndReached()}
+				onEndReached={onEndReached}
 				//底部组件
 				ListFooterComponent={ListFooterComponent && ListFooterComponent()}
 				//头部组价
@@ -83,7 +81,7 @@ export default class AJFlatList extends Component {
 				refreshControl={
 					<RefreshControl
 						refreshing={this.state.refreshing}
-						onRefresh={onRefresh && onRefresh()}
+						onRefresh={onRefresh}
 					/>
 				}
 			/>
