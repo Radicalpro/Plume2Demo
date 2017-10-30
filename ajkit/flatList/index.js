@@ -57,7 +57,7 @@ export default class AJFlatList extends Component {
 			<FlatList
 				ref="listRef"
 				data={data}
-				renderItem={({item, index}) => renderRow(item, extraData, index)}
+				renderItem={({item, index}) => renderRow(item, index, extraData)}
 				//水平或垂直展示
 				horizontal={false}
 				//初始化渲染行数
